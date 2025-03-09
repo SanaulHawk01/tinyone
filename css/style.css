@@ -37,10 +37,11 @@ header{
 .menu{}
 
 .menu ul li a{
-    padding: 0 30px !important;
+    padding: 0 50px !important;
     font-family: ptsans-bold;
     font-size: 22px;
     color: #010101 !important;
+    transition: .3s;
 }
 
 .menu ul li:last-child a{
@@ -58,6 +59,16 @@ header{
 .slider{
     padding-bottom: 100px;
     background-color: #fcdb00;
+}
+
+.c_ind{
+    bottom: -80px;
+}
+
+.c_ind [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
 
 .s_text{
@@ -82,19 +93,15 @@ header{
 
 .s_icon{}
 
-.s_icon ul li a{
+.s_icon ul li i:hover{
+    transform: scale(.8);
+}
+
+.s_icon ul li i{
     margin-right: 25px;
     font-size: 42px;
     color: #010101;
-    transition: .2s;
-}
-
-/*.s_icon ul li a{
     transition: .3s;
-}*/
-
-.s_icon ul li a:hover{
-    transform: scale(1.5);
 }
 
 .s_img{}
@@ -102,3 +109,113 @@ header{
 .s_img img{}
 
 /*Slider end*/
+
+/*Feature start*/
+
+.feature{}
+
+.c_padding{
+    padding: 100px 0 120px;
+}
+
+/*1st row*/
+
+.c_title{}
+
+.c_h1{
+    margin-bottom: 15px;
+    font-family: ptsans-bold;
+    font-size: 32px;
+    color: #010101;
+}
+
+.c_p{
+    font-size: 20px;
+    color: #313841;
+    line-height: 28px;
+}
+
+/*2nd row*/
+
+.f_item{
+    margin-top: 70px;
+}
+
+.f_icon{}
+
+.f_icon i{
+    font-size: 50px;
+    color: #010101;
+    line-height: 0;
+    transition: .3s;
+}
+
+.f_icon i:hover{
+    transform: scale(.8);
+}
+
+.f_text{}
+
+.f_text h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.f_text p{
+    word-spacing: 1px;
+}
+
+/*Feature end*/
+
+/*Contact us start*/
+
+.contact{
+    background-color: #000000;
+}
+
+.yellow{
+    color: #fcdb00;
+}
+.ash{
+    color: #898989;
+}
+
+.c_form{
+    margin: 35px 0 70px;
+}
+
+.c_imput{
+    padding: 10px 20px;
+    height: 55px;
+    font-family: ptsans-regular;
+    color: #898989;
+}
+
+.c_submit{
+    width: 100%;
+    height: 55px;
+    font-family: ptsans-bold;
+    color: #010101;
+    background-color: #fcdb00;
+    text-transform: uppercase;
+}
+
+.c_submit:hover{
+    background-color: white;
+}
+
+.c_icon{}
+
+.c_icon ul li{
+    margin-right: 35px !important;
+}
+
+.c_icon ul li:last-child{
+    margin-right: 0 !important;
+}
+
+.c_icon ul li i{}
+
+/*Contact us end*/
