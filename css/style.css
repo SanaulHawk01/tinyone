@@ -15,10 +15,11 @@
 /*Common css Start*/
 
 body{
-  font-family: ptsans-regular;
-  font-size: 16px;
-  font-weight: 400;
-  color: #898989;
+   padding-top: 109px;
+   font-family: ptsans-regular;
+   font-size: 16px;
+   font-weight: 400;
+   color: #898989;
 }
 
 /*Common css End*/
@@ -151,7 +152,7 @@ header{
 }
 
 .f_icon i:hover{
-    transform: scale(.8);
+    transform: rotate(20deg);
 }
 
 .f_text{}
@@ -172,7 +173,7 @@ header{
 /*Contact us start*/
 
 .contact{
-    background-color: #000000;
+    background-color: #010101;
 }
 
 .yellow{
@@ -209,13 +210,43 @@ header{
 .c_icon{}
 
 .c_icon ul li{
-    margin-right: 35px !important;
+    margin-right: 25px !important;
 }
 
 .c_icon ul li:last-child{
     margin-right: 0 !important;
 }
 
-.c_icon ul li i{}
+.c_icon ul li i{
+    font-size: 42px;
+    color: #fcdb00;
+    transition: .3s;
+}
+
+.c_icon ul li i:hover{
+    transform: rotate(20deg);
+}
 
 /*Contact us end*/
+
+/*Footer start*/
+
+footer{
+    padding-bottom: 120px;
+    background-color: #010101;
+}
+
+.f_address{}
+.f_address address{
+    color: #ffffff;
+}
+
+.f_content{}
+.f_content p{
+    margin-bottom: 0;
+}
+.f_content p a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Footer end*/
